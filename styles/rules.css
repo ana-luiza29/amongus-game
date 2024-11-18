@@ -1,14 +1,14 @@
-@media screen and (max-width: 396px) {
-    .container{
+@media screen and (max-width: 936) {
+    .container {
         flex-direction: column;
     }
-    .painel {
+    .painel{
         margin: 15px 0;
-        min-width: 289px;
+        min-width: 280px;
         min-height: 317px;
-    } 
-    .painel .boxPainel {
-        min-height: 268px;
+    }
+    .painel .boxPainel{
+        min-height: 280px;
         min-width: 79.8%;
     }
 }
@@ -17,41 +17,40 @@
     .container{
         flex-direction: row;
     }
-    .painel {
+    .painel{
         margin: 0 15px;
         min-width: 280px;
         min-height: 317px;
-    } 
-    .painel.boxPainel {
-        min-height: 268px;
+    }
+    .painel .boxPainel{
+        min-height: 280px;
         min-width: 79.8%;
     }
 }
 
-@media screen and (min-width: 776px) {
- .container{
+@media screen and (min-width:776px) {
+    .container{
         flex-direction: row;
     }
-    .painel {
+    .painel{
         margin: 0 15px;
-        min-width: 386px;
+        min-width: 368px;
         min-height: 417px;
     }
-    .painel.boxPainel {
+    .painel .boxPainel{
         min-height: 353px;
         min-width: 79.8%;
     }
 }
 
 @media screen and (min-width: 1159px) {
-    .painel {
+    .painel{
         margin: 0 15px;
         min-width: 456px;
         min-height: 517px;
     }
-    .painel.boxPainel {
+    .painel .boxPainel{
         min-height: 428px;
         min-width: 79.8%;
     }
-
 }
